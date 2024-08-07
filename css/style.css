@@ -173,10 +173,10 @@ button{
         flex-wrap: wrap;
     
     }
-    .first1 ,.first{
+    /* .first1 ,.first{
     padding: .6rem 3rem;
   
-    }
+    } */
     input{
         border-radius: 5px;
         border: 1px solid var(--green600);
