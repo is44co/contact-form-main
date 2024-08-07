@@ -7,13 +7,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
   <title> Contact form</title>
-
+  <script src="https://kit.fontawesome.com/083d01ef6d.js" crossorigin="anonymous"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
 <body>
 <div class="container">
-<form action="form">
+<form  action="#submit">
 <h1>Contact Us </h1>
 <div class="fname">
 <div class="name">
@@ -27,7 +27,7 @@
 </div>
 <div class="email">
 <p>Email Address *</p>
-<input type="text" name="" id="" required>
+<input type="email" name="" id="" required>
 
 </div>
 <div class="query">
@@ -40,7 +40,8 @@
   </div>
   <div class="inp">
     <input  type="radio" id="option1" name="options" value="1" required>
-    <label for="option1">Support Request</label>
+   <label for="option1">Support Request</label> 
+   
 </div>
   </div>
 
@@ -55,11 +56,15 @@
 </div>
 
 <div class="submi">
-<button  type="submit" >Submit</button>
+<button  type="" >Submit</button>
 
 
 </div>
-
+<div id="submit" class="hidden">
+ 
+  <span>  <i class="fa-solid fa-circle-check"></i> Message Sent</span>
+  <p class="hide">Thanks fot completing the form. we will be in touch soon</p>
+</div>
 </form>
 
 
